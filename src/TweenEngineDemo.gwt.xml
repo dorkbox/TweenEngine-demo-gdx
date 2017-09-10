@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.1//EN" "http://gwtproject.org/doctype/2.8.1/gwt-module.dtd">
+<module>
+    <inherits name="com.badlogic.gdx.backends.gdx_backends_gwt"/>
+    <inherits name="TweenEngine"/>
+
+    <entry-point class="dorkbox.LibGdxHtmlDemo"/>
+
+    <!-- Have to also have the intellij web facet map this 'data' dir to our assets dir. convoluted but necessary -->
+    <set-configuration-property name="gdx.assetpath" value="data/"/>
+    <!-- by default goes into 'war', which is incorrect for intellij. We want to install to the current '.' directory -->
+    <set-configuration-property name="gdx.assetoutputpath" value="./"/>
+
+
+
+    <add-linker name="xsiframe"/>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+
+    <!-- Allow soundmanager.js files to be added as scripts -->
+    <set-configuration-property name="xsiframe.failIfScriptTag" value="false"/>
+
+    <source path="dorkbox">
+        <exclude name="LibGdxDemo.java"/>
+    </source>
+</module>
