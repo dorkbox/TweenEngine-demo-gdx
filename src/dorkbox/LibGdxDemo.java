@@ -21,11 +21,16 @@ import dorkbox.demo.App;
 
 public class LibGdxDemo {
     public static void main(String[] args) {
-		Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
-		cfg.setResizable(false);
-		cfg.useVsync(true);
-		cfg.setWindowedMode(800, 580);
-		cfg.setTitle("TweenEngine LibGDX Demo");
-		new Lwjgl3Application(new App(), cfg);
+        new LibGdxDemo().start();
 	}
+
+    public
+    void start() {
+        Lwjgl3ApplicationConfiguration cfg = new Lwjgl3ApplicationConfiguration();
+        cfg.setResizable(false);
+        cfg.useVsync(true);
+        cfg.setWindowedMode(800, 580);
+        cfg.setTitle("TweenEngine LibGDX Demo");
+        new Lwjgl3Application(new App(), cfg);
+    }
 }
