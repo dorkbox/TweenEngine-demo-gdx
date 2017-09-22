@@ -34,9 +34,9 @@ import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Align;
 
 import dorkbox.accessors.SpriteAccessor;
-import dorkbox.tweenengine.BaseTween;
-import dorkbox.tweenengine.TweenCallback;
-import dorkbox.tweenengine.TweenEngine;
+import dorkbox.tweenEngine.BaseTween;
+import dorkbox.tweenEngine.TweenCallback;
+import dorkbox.tweenEngine.TweenEngine;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/

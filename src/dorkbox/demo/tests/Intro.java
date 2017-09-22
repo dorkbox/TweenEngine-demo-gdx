@@ -19,8 +19,8 @@ import com.badlogic.gdx.InputProcessor;
 
 import dorkbox.demo.SplashScreen;
 import dorkbox.demo.Test;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.UpdateAction;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.UpdateAction;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/

@@ -23,11 +23,11 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 
 import dorkbox.accessors.SpriteAccessor;
 import dorkbox.demo.Test;
-import dorkbox.tweenengine.BaseTween;
-import dorkbox.tweenengine.Timeline;
-import dorkbox.tweenengine.TweenCallback;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.TweenEquations;
+import dorkbox.tweenEngine.BaseTween;
+import dorkbox.tweenEngine.Timeline;
+import dorkbox.tweenEngine.TweenCallback;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.TweenEquations;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com

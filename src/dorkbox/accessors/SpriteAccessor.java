@@ -15,9 +15,10 @@
  */
 package dorkbox.accessors;
 
-import dorkbox.tweenengine.TweenAccessor;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+
+import dorkbox.tweenEngine.TweenAccessor;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com

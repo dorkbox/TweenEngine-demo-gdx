@@ -30,8 +30,8 @@ import dorkbox.demo.tests.SimpleTween;
 import dorkbox.demo.tests.TimeManipulation;
 import dorkbox.demo.tests.Types;
 import dorkbox.demo.tests.Waypoints;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.UpdateAction;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.UpdateAction;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/

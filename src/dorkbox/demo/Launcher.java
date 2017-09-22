@@ -32,10 +32,10 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector3;
 
 import dorkbox.accessors.SpriteAccessor;
-import dorkbox.tweenengine.BaseTween;
-import dorkbox.tweenengine.TweenCallback;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.TweenEquations;
+import dorkbox.tweenEngine.BaseTween;
+import dorkbox.tweenEngine.TweenCallback;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.TweenEquations;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/

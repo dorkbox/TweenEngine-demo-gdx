@@ -24,10 +24,10 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Align;
 
 import dorkbox.accessors.SpriteAccessor;
-import dorkbox.tweenengine.TweenCallback;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.TweenEquations;
-import dorkbox.tweenengine.primitives.MutableFloat;
+import dorkbox.tweenEngine.TweenCallback;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.TweenEquations;
+import dorkbox.tweenEngine.primitives.MutableFloat;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/

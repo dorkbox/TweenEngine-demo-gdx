@@ -20,9 +20,9 @@ import com.badlogic.gdx.InputProcessor;
 
 import dorkbox.accessors.SpriteAccessor;
 import dorkbox.demo.Test;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.TweenEquations;
-import dorkbox.tweenengine.TweenPaths;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.TweenEquations;
+import dorkbox.tweenEngine.TweenPaths;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com

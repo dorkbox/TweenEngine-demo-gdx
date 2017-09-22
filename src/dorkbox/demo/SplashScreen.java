@@ -26,11 +26,11 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 import dorkbox.accessors.SpriteAccessor;
-import dorkbox.tweenengine.BaseTween;
-import dorkbox.tweenengine.TweenCallback;
-import dorkbox.tweenengine.TweenEngine;
-import dorkbox.tweenengine.TweenEquations;
-import dorkbox.tweenengine.UpdateAction;
+import dorkbox.tweenEngine.BaseTween;
+import dorkbox.tweenEngine.TweenCallback;
+import dorkbox.tweenEngine.TweenEngine;
+import dorkbox.tweenEngine.TweenEquations;
+import dorkbox.tweenEngine.UpdateAction;
 
 /**
  * @author Aurelien Ribon | http://www.aurelienribon.com/
