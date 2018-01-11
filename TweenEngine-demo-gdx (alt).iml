@@ -31,7 +31,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="gwt-user" level="application" />
+    <orderEntry type="library" name="gwt-user" level="application" />
     <orderEntry type="library" name="dorkbox tween_engine" level="application" />
     <orderEntry type="library" name="lwjgl-3" level="application" />
     <orderEntry type="library" name="libGdx" level="application" />
